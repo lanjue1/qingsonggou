@@ -109,7 +109,7 @@ export default {
     /*this.$bus.$on('afterImgLoad',()=>{
       this.$refs.Bscroll.B.refresh()
     })*/
-    const Refresh=Debounce(this.$refs.Bscroll.refresh,50)
+    const Refresh=Debounce(this.$refs.Bscroll.refresh,100)
     this.$bus.$on('afterImgLoad',()=>{
       Refresh();
 

@@ -46,9 +46,10 @@
     justify-content: space-evenly;
 
 }
-  .goodsNavbar span{
+  .goodsNav span{
     flex: 1;
     text-align: center;
+    font-size: 16px;
   }
   .backImg{
     padding-top: 7px;
